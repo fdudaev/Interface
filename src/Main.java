@@ -8,5 +8,13 @@ public class Main {
         iPhone.isRinging();
         iPhone.answer();
 
+        ISmartWatch appleWatch;
+        appleWatch = new iWatch();
+        appleWatch.powerOn(200);
+        System.out.println(appleWatch.batteryLife(200));
+        appleWatch.wallpaper();
+        appleWatch.wristStrap("Black");
+
+
     }
 }
