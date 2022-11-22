@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        ITelephone iPhone;
+/*        ITelephone iPhone;
 
         iPhone = new MobilePhone(4444225);
         iPhone.powerOn();
@@ -13,7 +13,17 @@ public class Main {
         appleWatch.powerOn(200);
         System.out.println(appleWatch.batteryLife(200));
         appleWatch.wallpaper();
-        appleWatch.wristStrap("Black");
+        appleWatch.wristStrap("Black");*/
+
+        IComputer laptop;
+
+        laptop = new MacBook("Grey", 3.6);
+
+        laptop.lable();
+        laptop.powerOn(true);
+        laptop.screen();
+        laptop.connectKeyboard();
+        laptop.connectMouse();
 
 
     }
